@@ -6,7 +6,7 @@ public class Main {
 
     public static String checkFile(){
         String code = "";
-        try( FileReader reader = new FileReader("/C:\\Users\\izadine\\IdeaProjects\\Projet1\\src\\com\\company/Code.txt") )
+        try( FileReader reader = new FileReader("Code.txt") )
         {
             int c;
             while( ( c=reader.read() ) != -1) {
